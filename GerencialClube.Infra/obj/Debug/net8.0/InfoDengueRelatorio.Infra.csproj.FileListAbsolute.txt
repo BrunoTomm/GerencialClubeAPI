@@ -1,0 +1,15 @@
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\bin\Debug\net8.0\InfoDengueRelatorio.Infra.deps.json
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\bin\Debug\net8.0\InfoDengueRelatorio.Infra.dll
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\bin\Debug\net8.0\InfoDengueRelatorio.Infra.pdb
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\bin\Debug\net8.0\InfoDengueRelatorio.Dominio.dll
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\bin\Debug\net8.0\InfoDengueRelatorio.Dominio.pdb
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.csproj.AssemblyReference.cache
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.AssemblyInfoInputs.cache
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.AssemblyInfo.cs
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDeng.6643CED4.Up2Date
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.dll
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\refint\InfoDengueRelatorio.Infra.dll
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\InfoDengueRelatorio.Infra.pdb
+C:\Users\bruno\Downloads\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio\InfoDengueRelatorio.Infra\obj\Debug\net8.0\ref\InfoDengueRelatorio.Infra.dll

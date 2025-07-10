@@ -1,0 +1,37 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider
+.idea/
+
+## Logs
+*.log
+
+## Database
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+## OS junk
+.DS_Store
+Thumbs.db
+
+## Others
+*.vsidx

@@ -1,0 +1,833 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Relatórios InfoDengue - WebAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/InfoDengue/relatorios/sp-rj": {
+      "post": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/InfoDengue/relatorios/por-codigo-ibge": {
+      "post": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioPorIbgeRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioPorIbgeRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioPorIbgeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RelatorioInfoDengueResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/InfoDengue/relatorios/sp-rj/total-casos": {
+      "post": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioSpRjRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MunicipioCasosResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MunicipioCasosResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MunicipioCasosResponse"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/InfoDengue/relatorios/municipio/total-casos-arbovirose": {
+      "post": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioTotalCasosArbovirosePorMunicipioRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioTotalCasosArbovirosePorMunicipioRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConsultaRelatorioTotalCasosArbovirosePorMunicipioRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ArbovirosePorMunicipioCasosResponse"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ArbovirosePorMunicipioCasosResponse"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ArbovirosePorMunicipioCasosResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/InfoDengue/solicitantes": {
+      "get": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/InfoDengue/relatorios-historico": {
+      "get": {
+        "tags": [
+          "InfoDengue"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuarioResponse"
+                  }
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ArbovirosePorMunicipioCasosResponse": {
+        "type": "object",
+        "properties": {
+          "municipio": {
+            "type": "string",
+            "nullable": true
+          },
+          "arboviroseTotalCasosResponse": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ArboviroseTotalCasosResponse"
+            },
+            "nullable": true
+          },
+          "totalCasos": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ArboviroseTotalCasosResponse": {
+        "type": "object",
+        "properties": {
+          "arbovirose": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalCasos": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultaRelatorioPorIbgeRequest": {
+        "required": [
+          "arbovirose",
+          "codigoIBGE",
+          "cpf",
+          "dataFim",
+          "dataInicio",
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 11,
+            "pattern": "^\\d{11}$",
+            "type": "string"
+          },
+          "dataInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataFim": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "semanaInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "semanaFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "codigoIBGE": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "arbovirose": {
+            "$ref": "#/components/schemas/TipoArbovirose"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultaRelatorioSpRjRequest": {
+        "required": [
+          "arbovirose",
+          "cpf",
+          "dataFim",
+          "dataInicio",
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 11,
+            "pattern": "^\\d{11}$",
+            "type": "string"
+          },
+          "dataInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataFim": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "semanaInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "semanaFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "arbovirose": {
+            "$ref": "#/components/schemas/TipoArbovirose"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ConsultaRelatorioTotalCasosArbovirosePorMunicipioRequest": {
+        "required": [
+          "codigoIBGE",
+          "cpf",
+          "dataFim",
+          "dataInicio",
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "cpf": {
+            "maxLength": 11,
+            "minLength": 11,
+            "pattern": "^\\d{11}$",
+            "type": "string"
+          },
+          "dataInicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataFim": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "semanaInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "semanaFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoInicio": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "anoFim": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "codigoIBGE": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MunicipioCasosResponse": {
+        "type": "object",
+        "properties": {
+          "municipio": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalCasos": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RelatorioInfoDengueResponse": {
+        "type": "object",
+        "properties": {
+          "dataSolicitacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "solicitante": {
+            "$ref": "#/components/schemas/UsuarioResponse"
+          },
+          "relatorios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RelatorioResponse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RelatorioResponse": {
+        "type": "object",
+        "properties": {
+          "municipio": {
+            "type": "string",
+            "nullable": true
+          },
+          "casos": {
+            "type": "number",
+            "format": "double"
+          },
+          "rt": {
+            "type": "number",
+            "format": "double"
+          },
+          "umidadeMedia": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "temperaturaMedia": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "nivel": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "casosEstimados": {
+            "type": "number",
+            "format": "double"
+          },
+          "casosEstimadosMin": {
+            "type": "number",
+            "format": "double"
+          },
+          "casosEstimadosMax": {
+            "type": "number",
+            "format": "double"
+          },
+          "probabilidadeRt1": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "incidencia100k": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "tweet": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "receptivo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "transmissao": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dataInicioSemana": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TipoArbovirose": {
+        "enum": [
+          "todas",
+          "dengue",
+          "chikungunya",
+          "zika"
+        ],
+        "type": "string"
+      },
+      "UsuarioResponse": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "cpf": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

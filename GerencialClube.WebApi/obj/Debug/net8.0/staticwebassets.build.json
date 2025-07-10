@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mFquG89GbBqUy/g7VpJE1NvCsa5oUpxCE8MZHW0+RS4=",
+  "Source": "GerencialClube.WebApi",
+  "BasePath": "_content/GerencialClube.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,31 @@
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.deps.json
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Dominio.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Dominio.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.AssemblyInfo.cs
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\Cadastro.BA876FDB.Up2Date
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\refint\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\Teste_Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\ref\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.deps.json
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.pdb
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Dominio.dll
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\bin\Debug\net8.0\CadastroDeClienteMuralis.Dominio.pdb
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.csproj.AssemblyReference.cache
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.AssemblyInfo.cs
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.sourcelink.json
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\Cadastro.BA876FDB.Up2Date
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\refint\CadastroDeClienteMuralis.Aplicacao.dll
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\CadastroDeClienteMuralis.Aplicacao.pdb
+C:\Users\bruno\Downloads\Muralis\CadastroDeClienteMuralis.Aplicacao\obj\Debug\net8.0\ref\CadastroDeClienteMuralis.Aplicacao.dll
