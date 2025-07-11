@@ -7,6 +7,11 @@
 ## Build results
 bin/
 obj/
+artifacts/
+*.dll
+*.exe
+*.app
+*.pdb
 
 ## NuGet
 *.nupkg
@@ -15,23 +20,24 @@ obj/
 packages/
 project.lock.json
 project.fragment.lock.json
-artifacts/
 
-## Rider
+## JetBrains Rider
 .idea/
 
 ## Logs
 *.log
 
-## Database
+## OS junk
+.DS_Store
+Thumbs.db
+
+## Database files
 *.mdf
 *.ldf
 *.sqlite
 *.db
 
-## OS junk
-.DS_Store
-Thumbs.db
-
 ## Others
 *.vsidx
+*.db-shm
+*.db-wal
